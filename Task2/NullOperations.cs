@@ -12,7 +12,7 @@ namespace Task2
         public void PerformNullChecks()
         {
             // 2. declaring a nullable string variable
-            string username = null;
+            string? username = null; // using nullable operator '?' to remove warning
 
             // 3.. using the Ternary Operator  to check if username is null (? : )
             string message = (username == null) ? "Username is not available" : username;

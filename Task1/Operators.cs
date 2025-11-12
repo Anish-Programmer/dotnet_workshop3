@@ -10,27 +10,27 @@ namespace Task1
     {
 
         // function to add two numbers 
-        public int Add(int a, int b)
+        public void Add(int a, int b)
         {
-            return a + b;
+            Console.WriteLine($"Sum of {a} and {b} is {a+b}");
         }
 
         // function to subtract two numbers 
-        public int Subtract(int a, int b)
+        public void Subtract(int a, int b)
         {
-            return a - b;
+            Console.WriteLine($"Difference of {a} and {b} is {a - b}");
         }
 
         // function to multiply two numbers
-        public int Multiply(int a, int b)
+        public void Multiply(int a, int b)
         {
-            return a * b;
+            Console.WriteLine($"Product of {a} and {b} is {a*b}");
         }
 
         // function to divide two numbers
-        public int Divide(int a, int b)
+        public void Divide(int a, int b)
         {
-            return a / b;
+            Console.WriteLine($"Division of {a} and {b} is {a/b}");
         }
 
 

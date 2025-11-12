@@ -24,25 +24,18 @@ namespace Task1
 
 
             // calling add function
-            int sum = op.Add(a, b);
+            op.Add(a, b);
 
             // calling subtract function    
-            int difference = op.Subtract(a, b);
+            op.Subtract(a, b);
 
             // calling multiply function
-            int product = op.Multiply(a, b);
+            op.Multiply(a, b);
 
             // calling divide function
-            int quotient = op.Divide(a, b);
-
-
-            // displaying results
-            Console.WriteLine("Addition: " + sum);
-            Console.WriteLine("Subtraction: " + difference);
-            Console.WriteLine("Multiplication: "+ product);
-            Console.WriteLine("Division: " + quotient);
-
+            op.Divide(a, b);
             
+
             // calling OddEvenFinder function
             op.OddEvenFinder(a);
         }
